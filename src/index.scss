@@ -1,0 +1,93 @@
+:root {
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+
+
+  --black: #04152d;
+  --black2: #041226;
+  --black3: #020c1b;
+  --black-lighter: #1c4b91;
+  --black-light: #173d77;
+  --pink: #da2f68;
+  --orange: #f89e00;
+  --light: #ffffff;
+  --navy: #0a192f;
+  --green: #64ffda;
+  --slate: #8892b0;
+  --lightest-slate: #ccd6f6;
+  --orange: rgb(238, 69, 8);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--light);
+  font-family: "Roboto Mono", monospace;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--black2);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2caf8c;
+}
+// Animations
+
+@keyframes slideTop {
+  from {
+    opacity: 0.1;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0.1;
+    transform: translateX(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes slideRight {
+  from {
+    opacity: 0.1;
+    transform: translateX(800px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0.3;
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

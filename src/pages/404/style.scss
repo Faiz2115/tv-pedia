@@ -1,0 +1,12 @@
+.pagenotfound-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  h1 {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,18 @@
+// Back To Top
+
+.back-to-top {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--green);
+    font-size: 2rem;
+    cursor: pointer;
+    transition:1s all ease;
+    &:hover{
+      transform: translateY(-.3rem);
+    }
+    animation: top-button 0.4s ease-in-out;
+  }
+  
