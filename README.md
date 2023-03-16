@@ -1,5 +1,8 @@
 # tv-pedia
 
+Website URL :  tv-pedia.netlify.app/
+
+
 In The Home Page I have added 2 section's one is the hero section and other is the Tv Show section whose Data is being fetched from the link:"https://api.tvmaze.com/search/shows?q=all" .The link which was provided by you. From the API i am displaying the name,rating,image & genres and by clicking the button, summary and some other information can be seen as well.
 
    In the Details Page of the individual TV Shows , i have displayed the details regarding the TV Show & to book the TV Show Slot i have provided a button which redirects to the book show page.
